@@ -237,7 +237,7 @@ def main():
     logging.basicConfig(level=logging.DEBUG,
                         format='%(asctime)s - %(levelname)s - %(message)s')
     email = EMAIL or raw_input('Enter email: ')
-    password = EMAIL or getpass.getpass('Password: ')
+    password = PASSWORD or getpass.getpass('Password: ')
     with Tesla(email, password, CLIENT_ID, CLIENT_SECRET) as tesla:
         tesla.fetch_token()
         vehicles = tesla.vehicle_list()

@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends tk \
 RUN pip install -r requirements.txt
 
 COPY teslapy /teslapy/
+COPY media /media/
 COPY cli.py /
 COPY menu.py /
 COPY gui.py /
@@ -19,4 +20,3 @@ ENV DISPLAY=172.16.247.1:0.0
 
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["help"]
-
