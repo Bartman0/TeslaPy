@@ -10,6 +10,7 @@ CLIENT_SECRET='c75f14bbadc8bee3a7594412c31416f8300256d7668ea7e6e7f06727bfb9d220'
 
 ACCOUNT="richard.kooijman@inergy.nl"
 SERVICE="TeslaPy"
+VEHICLE_ID='XXXXXXXXXX'
 
 
 def main():
