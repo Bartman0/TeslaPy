@@ -5,12 +5,14 @@
 import argparse
 from teslapy import Tesla
 
-CLIENT_ID='e4a9949fcfa04068f59abb5a658f2bac0a3428e4652315490b659d5ab3f35a9e'
-CLIENT_SECRET='c75f14bbadc8bee3a7594412c31416f8300256d7668ea7e6e7f06727bfb9d220'
-
+# CHANGE THIS
 ACCOUNT="richard.kooijman@inergy.nl"
 SERVICE="TeslaPy"
 VEHICLE_ID='XXXXXXXXXX'
+
+# leave this alone
+CLIENT_ID='e4a9949fcfa04068f59abb5a658f2bac0a3428e4652315490b659d5ab3f35a9e'
+CLIENT_SECRET='c75f14bbadc8bee3a7594412c31416f8300256d7668ea7e6e7f06727bfb9d220'
 
 
 def main():
