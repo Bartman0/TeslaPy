@@ -20,10 +20,10 @@ The following scripts are defined at this moment:
 ## Setup
 To make the environment ready on iOS for the above scripts, you'll need to run setup_keychain.py first, after setting your information in commands.py:
 
- `# CHANGE THIS`
- `ACCOUNT="richard.kooijman@inergy.nl"`
- `SERVICE="TeslaPy"`
- `VEHICLE_ID='XXXXXXXXXX'`
+`# CHANGE THIS`<br/>
+`ACCOUNT="richard.kooijman@inergy.nl"`<br/>
+`SERVICE="TeslaPy"`<br/>
+`VEHICLE_ID='XXXXXXXXXX'`
 
 Furthermore, when you run this setup script, it will ask you for your password to put it into your keychain. I suggest you checkout the setup_keychain.py for security reasons.
 
