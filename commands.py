@@ -8,7 +8,7 @@ from teslapy import Tesla
 # CHANGE THIS
 ACCOUNT="richard.kooijman@inergy.nl"
 SERVICE="TeslaPy"
-VEHICLE_ID='XXXXXXXXXX'
+VEHICLE_ID='5375669897306558'
 
 # leave this alone
 CLIENT_ID='e4a9949fcfa04068f59abb5a658f2bac0a3428e4652315490b659d5ab3f35a9e'
